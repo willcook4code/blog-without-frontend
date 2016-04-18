@@ -12,6 +12,6 @@ Backbone.sync = sync;
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import BlogPostList from './components/BlogPostList';
+import BlogPostList from './components/BlogPostList.js';
 
 ReactDOM.render(<BlogPostList />, document.querySelector('main'));
