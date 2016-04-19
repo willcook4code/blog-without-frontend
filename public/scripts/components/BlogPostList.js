@@ -19,8 +19,9 @@ const BlogPostList = React.createClass({
 		let eachPreview = this.state.post.map((val, i, array) => {
 			return (
 				<Preview 
+				key={i}
 				title={val.get('title')}
-				author = {val.get('author').firstName}
+				author = {val.get('author')}
 				postDate= {val.get('createdAt')}
 				body = {val.get('body')}
 				/>
